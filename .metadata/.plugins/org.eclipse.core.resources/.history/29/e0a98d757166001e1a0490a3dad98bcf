@@ -1,0 +1,26 @@
+/*
+ * fsm_automatic.c
+ *
+ *  Created on: Oct 9, 2023
+ *      Author: Huy
+ */
+#include "fsm_automatic.h"
+
+void fsm_automatic_run(){
+	switch(status){
+	case INIT:
+		break;
+	case GREEN1_RED2:
+		break;
+	case YELLOW1_RED2:
+		break;
+	case GREEN2_RED1:
+		break;
+	case YELLOW2_RED1:
+		break;
+	default:
+		break;
+	}
+}
+
+
