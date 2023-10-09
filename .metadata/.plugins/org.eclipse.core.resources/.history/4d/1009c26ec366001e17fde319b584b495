@@ -15,6 +15,4 @@ void TurnLedInSequence();
 
 void clearAllClock();
 
-void setNumberOnClock(int num);
-
 #endif /* INC_ANALOG_CLOCK_H_ */
