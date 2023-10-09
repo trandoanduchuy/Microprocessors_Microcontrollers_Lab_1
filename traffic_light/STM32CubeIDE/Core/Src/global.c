@@ -10,6 +10,7 @@
 
 #include "global.h"
 
+int remaining_time = 0;
 int status = 0;
 
 #endif /* SRC_GLOBAL_C_ */
