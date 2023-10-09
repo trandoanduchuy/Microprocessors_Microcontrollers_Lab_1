@@ -1,0 +1,20 @@
+/*
+ * global.h
+ *
+ *  Created on: Oct 9, 2023
+ *      Author: Huy
+ */
+
+#ifndef INC_GLOBAL_H_
+#define INC_GLOBAL_H_
+
+#include "main.h"
+#include "software_timer.h"
+
+#define INIT	0
+#define RED		1
+#define YELLOW	2
+
+extern int status;
+
+#endif /* INC_GLOBAL_H_ */
