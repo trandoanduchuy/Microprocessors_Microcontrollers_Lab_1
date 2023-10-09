@@ -1,2 +1,3 @@
 analog_clock.c:9:6:TurnLed	13
 analog_clock.c:184:6:TurnLedInSequence	2
+analog_clock.c:190:6:clearAllClock	1
