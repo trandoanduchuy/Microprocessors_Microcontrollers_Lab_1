@@ -14,6 +14,7 @@
 #define INIT	0
 #define RED		1
 #define YELLOW	2
+#define GREEN	3
 
 extern int status;
 
