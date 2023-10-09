@@ -1,1 +1,2 @@
-../Core/Src/7SegmentLed.c:9:6:display7SEG	16	static
+../Core/Src/7SegmentLed.c:9:6:display7SEG_1	16	static
+../Core/Src/7SegmentLed.c:111:6:display7SEG_2	16	static

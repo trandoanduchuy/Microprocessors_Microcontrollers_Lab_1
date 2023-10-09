@@ -103,14 +103,11 @@ int main(void)
   while (1)
   {
 	  if(timer1_flag == 1){
-		  if(traffic1_counter > 0 && traffic2_counter > 0){
-			  traffic1_counter--;
-			  traffic2_counter--;
+		  if(remaining_time > 0){
+			  remaining_time--;
 		  }
 		  setTimer1(1000);
 	  }
-	  display7SEG_1(traffic1_counter);
-	  display7SEG_2(traffic2_counter);
 	  fsm_automatic_run();
     /* USER CODE END WHILE */
 

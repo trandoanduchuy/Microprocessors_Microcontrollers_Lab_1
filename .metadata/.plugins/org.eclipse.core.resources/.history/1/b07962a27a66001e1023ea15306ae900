@@ -18,6 +18,5 @@
 #define YELLOW2_RED1	4
 
 extern int status;
-extern int traffic1_counter;
-extern int traffic2_counter;
+extern int remaining_time;
 #endif /* INC_GLOBAL_H_ */

@@ -10,8 +10,7 @@
 
 #include "global.h"
 
-int traffic1_counter = 0;
-int traffic2_counter = 0;
+int remaining_time = 0;
 int status = 0;
 
 #endif /* SRC_GLOBAL_C_ */
