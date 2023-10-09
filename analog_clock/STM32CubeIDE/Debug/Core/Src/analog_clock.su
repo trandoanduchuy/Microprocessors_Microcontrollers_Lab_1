@@ -1,0 +1,2 @@
+../Core/Src/analog_clock.c:9:6:TurnLed	16	static
+../Core/Src/analog_clock.c:184:6:TurnLedInSequence	8	static

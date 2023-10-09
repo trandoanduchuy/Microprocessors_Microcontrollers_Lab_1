@@ -1,0 +1,13 @@
+/*
+ * analog_clock.c
+ *
+ *  Created on: Oct 9, 2023
+ *      Author: Huy
+ */
+#include "analog_clock.h"
+
+void TestConnection(){
+	int counter = 0;
+	setTimer1(1000);
+}
+
