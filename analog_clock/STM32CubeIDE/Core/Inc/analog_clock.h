@@ -17,7 +17,10 @@ void clearAllClock();
 
 void setNumberOnClock(int num);
 
+void clearNumberOnClock(int num);
+
 void DisplayTime(int hour, int minute, int second);
 
-//void AnalogClock(int start_hour, int start_minute, int start_second);
+
+
 #endif /* INC_ANALOG_CLOCK_H_ */

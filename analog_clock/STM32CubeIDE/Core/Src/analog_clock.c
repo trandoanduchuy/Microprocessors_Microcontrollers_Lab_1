@@ -289,9 +289,9 @@ void clearNumberOnClock(int num){
 }
 
 void DisplayTime(int hour, int minute, int second){
+	clearAllClock();
 	int sec = second/5;
 	int min = minute/5;
-	clearAllClock();
 	if(hour == 0 || min == 0 || sec == 0){
 		setNumberOnClock(0);
 	}
@@ -330,26 +330,4 @@ void DisplayTime(int hour, int minute, int second){
 	}
 }
 
-//void AnalogClock(int start_hour, int start_minute, int start_second){
-//	static int hour = start_hour;
-//	static int minute = start_minute;
-//	static int second = start_second;
-//
-//	if(timer1_flag == 1){
-//		second = second + 1;
-//		if(second >= 60){
-//			second = 0;
-//			minute = minute + 1;
-//			if(minute >= 60){
-//				minute = 0;
-//				hour = hour + 1;
-//				if(hour >= 12){
-//					hour = 0;
-//				}
-//			}
-//		}
-//	}
-//	DisplayTime(hour, minute, second);
-//
-//}
 
