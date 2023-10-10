@@ -3,3 +3,4 @@ analog_clock.c:184:6:TurnLedInSequence	2
 analog_clock.c:190:6:clearAllClock	1
 analog_clock.c:205:6:setNumberOnClock	13
 analog_clock.c:248:6:clearNumberOnClock	13
+analog_clock.c:291:6:DisplayTime	37

@@ -3,3 +3,4 @@
 ../Core/Src/analog_clock.c:190:6:clearAllClock	8	static
 ../Core/Src/analog_clock.c:205:6:setNumberOnClock	16	static
 ../Core/Src/analog_clock.c:248:6:clearNumberOnClock	16	static
+../Core/Src/analog_clock.c:291:6:DisplayTime	32	static

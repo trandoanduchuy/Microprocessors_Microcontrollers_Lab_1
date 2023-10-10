@@ -288,4 +288,68 @@ void clearNumberOnClock(int num){
 	}
 }
 
+void DisplayTime(int hour, int minute, int second){
+	int sec = second/5;
+	int min = minute/5;
+	clearAllClock();
+	if(hour == 0 || min == 0 || sec == 0){
+		setNumberOnClock(0);
+	}
+	if(hour == 1 || min == 1 || sec == 1){
+		setNumberOnClock(1);
+	}
+	if(hour == 2 || min == 2 || sec == 2){
+		setNumberOnClock(2);
+	}
+	if(hour == 3 || min == 3 || sec == 3){
+		setNumberOnClock(3);
+	}
+	if(hour == 4 || min == 4 || sec == 4){
+		setNumberOnClock(4);
+	}
+	if(hour == 5 || min == 5 || sec == 5){
+		setNumberOnClock(5);
+	}
+	if(hour == 6 || min == 6 || sec == 6){
+		setNumberOnClock(6);
+	}
+	if(hour == 7 || min == 7 || sec == 7){
+		setNumberOnClock(7);
+	}
+	if(hour == 8 || min == 8 || sec == 8){
+		setNumberOnClock(8);
+	}
+	if(hour == 9 || min == 9 || sec == 9){
+		setNumberOnClock(9);
+	}
+	if(hour == 10 || min == 10 || sec == 10){
+		setNumberOnClock(10);
+	}
+	if(hour == 11 || min == 11 || sec == 11){
+		setNumberOnClock(11);
+	}
+}
+
+//void AnalogClock(int start_hour, int start_minute, int start_second){
+//	static int hour = start_hour;
+//	static int minute = start_minute;
+//	static int second = start_second;
+//
+//	if(timer1_flag == 1){
+//		second = second + 1;
+//		if(second >= 60){
+//			second = 0;
+//			minute = minute + 1;
+//			if(minute >= 60){
+//				minute = 0;
+//				hour = hour + 1;
+//				if(hour >= 12){
+//					hour = 0;
+//				}
+//			}
+//		}
+//	}
+//	DisplayTime(hour, minute, second);
+//
+//}
 
