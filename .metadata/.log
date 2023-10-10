@@ -64,3 +64,800 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-10-09 23:54:32.850
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-10-10 15:09:56.475 -----------------------------------------------
+eclipse.buildId=Version 1.12.0
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-10-10 15:10:12.879
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-10-10 15:10:12.885
+!MESSAGE Log4j2 initialized with config file D:\Embedded_Programming\STM\STM32\Microprocessors_Microcontrollers_Lab\Microprocessors_Microcontrollers_Lab_1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-10-10 15:10:20.251
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:10:20.260
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.putFreeRecPtr(Database.java:522)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.removeBlock(Database.java:459)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.malloc(Database.java:356)
+	at org.eclipse.cdt.internal.core.pdom.db.ShortString.<init>(ShortString.java:49)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.newString(Database.java:598)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.newString(Database.java:582)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.<init>(PDOMFile.java:141)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addUncommittedFile(WritablePDOM.java:89)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.addUncommittedFile(WritableCIndex.java:65)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:635)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:329)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:287)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1295)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1107)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:910)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:10:20.261
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:11:12.778
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMInclude.getIncludedBy(PDOMInclude.java:177)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.findContextFile(AbstractIndexerTask.java:1058)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseVersionInContext(AbstractIndexerTask.java:992)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:925)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:11:12.778
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:11:12.784
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMInclude.getIncludedBy(PDOMInclude.java:177)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getParsedInContext(TranslationUnit.java:972)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getContextToHeader(TranslationUnit.java:938)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:848)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:162)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:683)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:670)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:469)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:573)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:65)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:79)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:123)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:119)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:98)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:335)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:11:12.784
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:11:13.866
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMInclude.getIncludedBy(PDOMInclude.java:177)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getParsedInContext(TranslationUnit.java:972)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getContextToHeader(TranslationUnit.java:938)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:848)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:162)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:683)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:670)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:469)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:573)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:65)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:79)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:64)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:346)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:11:13.866
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:11:16.547
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMInclude.getIncludedBy(PDOMInclude.java:177)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getParsedInContext(TranslationUnit.java:972)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getContextToHeader(TranslationUnit.java:938)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:848)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:162)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:683)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:670)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:469)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:573)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:65)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:79)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:64)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:346)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:11:16.547
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:11:16.766
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMInclude.getIncludedBy(PDOMInclude.java:177)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getParsedInContext(TranslationUnit.java:972)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getContextToHeader(TranslationUnit.java:938)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:848)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:843)
+	at org.eclipse.cdt.internal.core.model.ASTCache$1.run(ASTCache.java:361)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.cdt.internal.core.model.ASTCache.createAST(ASTCache.java:354)
+	at org.eclipse.cdt.internal.core.model.ASTCache.getAST(ASTCache.java:175)
+	at org.eclipse.cdt.internal.core.model.ASTCache.acquireSharedAST(ASTCache.java:265)
+	at org.eclipse.cdt.internal.core.model.ASTCache.runOnAST(ASTCache.java:223)
+	at org.eclipse.cdt.internal.ui.editor.ASTProvider.runOnAST(ASTProvider.java:338)
+	at org.eclipse.cdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.cdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:139)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:11:16.766
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:11:17.834
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMInclude.getIncludedBy(PDOMInclude.java:177)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getParsedInContext(TranslationUnit.java:972)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getContextToHeader(TranslationUnit.java:938)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:848)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:162)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:683)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:670)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:469)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:573)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:65)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:79)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:64)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:346)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:11:17.834
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:11:18.050
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMInclude.getIncludedBy(PDOMInclude.java:177)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getParsedInContext(TranslationUnit.java:972)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getContextToHeader(TranslationUnit.java:938)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:848)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:843)
+	at org.eclipse.cdt.internal.core.model.ASTCache$1.run(ASTCache.java:361)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.cdt.internal.core.model.ASTCache.createAST(ASTCache.java:354)
+	at org.eclipse.cdt.internal.core.model.ASTCache.getAST(ASTCache.java:175)
+	at org.eclipse.cdt.internal.core.model.ASTCache.acquireSharedAST(ASTCache.java:265)
+	at org.eclipse.cdt.internal.core.model.ASTCache.runOnAST(ASTCache.java:223)
+	at org.eclipse.cdt.internal.ui.editor.ASTProvider.runOnAST(ASTProvider.java:338)
+	at org.eclipse.cdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.cdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:139)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:11:18.050
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:11:19.379
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMInclude.getIncludedBy(PDOMInclude.java:177)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getParsedInContext(TranslationUnit.java:972)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getContextToHeader(TranslationUnit.java:938)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getCompletionNode(TranslationUnit.java:1002)
+	at org.eclipse.cdt.internal.ui.text.contentassist.CContentAssistInvocationContext$3.calculateValue(CContentAssistInvocationContext.java:230)
+	at org.eclipse.cdt.internal.ui.text.contentassist.CContentAssistInvocationContext$3.calculateValue(CContentAssistInvocationContext.java:1)
+	at org.eclipse.cdt.internal.ui.text.contentassist.Lazy.value(Lazy.java:36)
+	at org.eclipse.cdt.internal.ui.text.contentassist.CContentAssistInvocationContext.getCompletionNode(CContentAssistInvocationContext.java:463)
+	at org.eclipse.cdt.internal.ui.text.contentassist.ParsingBasedProposalComputer.computeCompletionProposals(ParsingBasedProposalComputer.java:48)
+	at org.eclipse.cdt.internal.ui.text.contentassist.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:299)
+	at org.eclipse.cdt.internal.ui.text.contentassist.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:266)
+	at org.eclipse.cdt.internal.ui.text.contentassist.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:263)
+	at org.eclipse.cdt.internal.ui.text.contentassist.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:215)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.lambda$0(ContentAssistant.java:2048)
+	at java.base/java.util.Collections$SingletonSet.forEach(Collections.java:4797)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.run(ContentAssistant.java:2047)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:2044)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:577)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.lambda$3(CompletionProposalPopup.java:1629)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.incrementalComplete(CompletionProposalPopup.java:1624)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1857)
+	at org.eclipse.cdt.internal.ui.editor.CEditor$AdaptedSourceViewer.doOperation(CEditor.java:339)
+	at org.eclipse.ui.texteditor.ContentAssistAction.lambda$0(ContentAssistAction.java:85)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.texteditor.ContentAssistAction.run(ContentAssistAction.java:84)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:580)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:647)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1280)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1072)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1114)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1110)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1539)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4868)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4746)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:11:19.379
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:11:19.412
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMInclude.getIncludedBy(PDOMInclude.java:177)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getParsedInContext(TranslationUnit.java:972)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getContextToHeader(TranslationUnit.java:938)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:848)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:162)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:683)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:670)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:469)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:573)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:65)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:79)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:64)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:346)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:11:19.412
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:11:19.569
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMInclude.getIncludedBy(PDOMInclude.java:177)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getParsedInContext(TranslationUnit.java:972)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getContextToHeader(TranslationUnit.java:938)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:848)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:843)
+	at org.eclipse.cdt.internal.core.model.ASTCache$1.run(ASTCache.java:361)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.cdt.internal.core.model.ASTCache.createAST(ASTCache.java:354)
+	at org.eclipse.cdt.internal.core.model.ASTCache.getAST(ASTCache.java:175)
+	at org.eclipse.cdt.internal.core.model.ASTCache.acquireSharedAST(ASTCache.java:265)
+	at org.eclipse.cdt.internal.core.model.ASTCache.runOnAST(ASTCache.java:223)
+	at org.eclipse.cdt.internal.ui.editor.ASTProvider.runOnAST(ASTProvider.java:338)
+	at org.eclipse.cdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.cdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:139)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:11:19.570
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:11:23.484
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMInclude.getIncludedBy(PDOMInclude.java:177)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getParsedInContext(TranslationUnit.java:972)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getContextToHeader(TranslationUnit.java:938)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:848)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:162)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:683)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:670)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:469)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:573)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:65)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:79)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:64)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:346)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:11:23.484
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:11:23.718
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMInclude.getIncludedBy(PDOMInclude.java:177)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getParsedInContext(TranslationUnit.java:972)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getContextToHeader(TranslationUnit.java:938)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:848)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:843)
+	at org.eclipse.cdt.internal.core.model.ASTCache$1.run(ASTCache.java:361)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.cdt.internal.core.model.ASTCache.createAST(ASTCache.java:354)
+	at org.eclipse.cdt.internal.core.model.ASTCache.getAST(ASTCache.java:175)
+	at org.eclipse.cdt.internal.core.model.ASTCache.acquireSharedAST(ASTCache.java:265)
+	at org.eclipse.cdt.internal.core.model.ASTCache.runOnAST(ASTCache.java:223)
+	at org.eclipse.cdt.internal.ui.editor.ASTProvider.runOnAST(ASTProvider.java:338)
+	at org.eclipse.cdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.cdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:139)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:11:23.718
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:11:25.968
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMInclude.getIncludedBy(PDOMInclude.java:177)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getParsedInContext(TranslationUnit.java:972)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getContextToHeader(TranslationUnit.java:938)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:848)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:162)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:683)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:670)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:469)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:573)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:65)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:79)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:64)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:346)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:11:25.968
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:11:26.777
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMInclude.getIncludedBy(PDOMInclude.java:177)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getParsedInContext(TranslationUnit.java:972)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getContextToHeader(TranslationUnit.java:938)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:848)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:162)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:683)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:670)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:469)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:573)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:65)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:79)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:64)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:346)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:11:26.777
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:11:27.076
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMInclude.getIncludedBy(PDOMInclude.java:177)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getParsedInContext(TranslationUnit.java:972)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getContextToHeader(TranslationUnit.java:938)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:848)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:843)
+	at org.eclipse.cdt.internal.core.model.ASTCache$1.run(ASTCache.java:361)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.cdt.internal.core.model.ASTCache.createAST(ASTCache.java:354)
+	at org.eclipse.cdt.internal.core.model.ASTCache.getAST(ASTCache.java:175)
+	at org.eclipse.cdt.internal.core.model.ASTCache.acquireSharedAST(ASTCache.java:265)
+	at org.eclipse.cdt.internal.core.model.ASTCache.runOnAST(ASTCache.java:223)
+	at org.eclipse.cdt.internal.ui.editor.ASTProvider.runOnAST(ASTProvider.java:338)
+	at org.eclipse.cdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.cdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:139)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:11:27.077
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:11:27.821
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMInclude.getIncludedBy(PDOMInclude.java:177)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getParsedInContext(TranslationUnit.java:972)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getContextToHeader(TranslationUnit.java:938)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:848)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:162)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:683)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:670)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:469)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:573)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:65)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:79)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:64)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:346)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:11:27.821
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:11:28.702
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMInclude.getIncludedBy(PDOMInclude.java:177)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getParsedInContext(TranslationUnit.java:972)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getContextToHeader(TranslationUnit.java:938)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:848)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:162)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:683)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:670)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:469)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:573)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:65)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:79)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:64)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:346)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:11:28.702
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:11:30.799
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMInclude.getIncludedBy(PDOMInclude.java:177)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getParsedInContext(TranslationUnit.java:972)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getContextToHeader(TranslationUnit.java:938)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:848)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:162)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:683)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:670)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:469)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:573)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:65)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:79)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:64)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:346)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:11:30.800
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:11:31.125
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMInclude.getIncludedBy(PDOMInclude.java:177)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getParsedInContext(TranslationUnit.java:972)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getContextToHeader(TranslationUnit.java:938)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:848)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:843)
+	at org.eclipse.cdt.internal.core.model.ASTCache$1.run(ASTCache.java:361)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.cdt.internal.core.model.ASTCache.createAST(ASTCache.java:354)
+	at org.eclipse.cdt.internal.core.model.ASTCache.getAST(ASTCache.java:175)
+	at org.eclipse.cdt.internal.core.model.ASTCache.acquireSharedAST(ASTCache.java:265)
+	at org.eclipse.cdt.internal.core.model.ASTCache.runOnAST(ASTCache.java:223)
+	at org.eclipse.cdt.internal.ui.editor.ASTProvider.runOnAST(ASTProvider.java:338)
+	at org.eclipse.cdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.cdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:139)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:11:31.126
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:11:32.120
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMInclude.getIncludedBy(PDOMInclude.java:177)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getParsedInContext(TranslationUnit.java:972)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getContextToHeader(TranslationUnit.java:938)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:848)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:162)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:683)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:670)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:469)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:573)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:65)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:79)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:64)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:346)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:11:32.120
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:11:37.232
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMInclude.getIncludedBy(PDOMInclude.java:177)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getParsedInContext(TranslationUnit.java:972)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getContextToHeader(TranslationUnit.java:938)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:848)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:162)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:683)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:670)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:469)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:573)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:65)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:79)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:64)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:346)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:11:37.232
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:11:37.978
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMInclude.getIncludedBy(PDOMInclude.java:177)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.findContextFile(AbstractIndexerTask.java:1058)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseVersionInContext(AbstractIndexerTask.java:992)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:925)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:11:37.978
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:12:50.691
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.malloc(Database.java:355)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.<init>(PDOMFile.java:136)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addUncommittedFile(WritablePDOM.java:89)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.addUncommittedFile(WritableCIndex.java:65)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:635)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:329)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:287)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1295)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1107)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:910)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:12:50.693
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-10-10 15:12:54.723
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: analog_clock.1696840240438.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.malloc(Database.java:355)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.<init>(PDOMFile.java:136)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addUncommittedFile(WritablePDOM.java:89)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.addUncommittedFile(WritableCIndex.java:65)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:635)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:329)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:287)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1295)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1107)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:910)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2023-10-10 15:12:54.723
+!MESSAGE Corrupted database: analog_clock.1696840240438.pdom

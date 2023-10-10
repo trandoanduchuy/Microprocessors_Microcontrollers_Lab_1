@@ -96,11 +96,13 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  int counter = 0;
   setTimer1(1000);
   while (1)
   {
 	  if(timer1_flag == 1){
-		  TurnLedInSequence();
+		  if(counter >= 12) counter = 0;
+		  clearNumberOnClock(counter++);
 		  setTimer1(1000);
 	  }
     /* USER CODE END WHILE */
